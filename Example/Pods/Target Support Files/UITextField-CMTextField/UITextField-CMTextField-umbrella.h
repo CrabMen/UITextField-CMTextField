@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UITextField+CMTextField.h"
 
 FOUNDATION_EXPORT double UITextField_CMTextFieldVersionNumber;
 FOUNDATION_EXPORT const unsigned char UITextField_CMTextFieldVersionString[];

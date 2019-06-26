@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B5DBE50C22C3851F00C20FEC /* UITextField+CMTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DBE50B22C3851F00C20FEC /* UITextField+CMTextField.m */; };
 		E3258C5B5BB36D8BB2C2BADD /* Pods_UITextField_CMTextField_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B38567B3B36B69165461B38 /* Pods_UITextField_CMTextField_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,13 +61,15 @@
 		60622C6F7919760C0C425305 /* Pods-UITextField-CMTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITextField-CMTextField_Tests.debug.xcconfig"; path = "Target Support Files/Pods-UITextField-CMTextField_Tests/Pods-UITextField-CMTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		80C82869873A2ED4AD244DB5 /* UITextField-CMTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "UITextField-CMTextField.podspec"; path = "../UITextField-CMTextField.podspec"; sourceTree = "<group>"; };
+		80C82869873A2ED4AD244DB5 /* UITextField-CMTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "UITextField-CMTextField.podspec"; path = "../UITextField-CMTextField.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BF838C4C3495227B0A83976 /* Pods-UITextField-CMTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITextField-CMTextField_Tests.release.xcconfig"; path = "Target Support Files/Pods-UITextField-CMTextField_Tests/Pods-UITextField-CMTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B5DBE50A22C3851F00C20FEC /* UITextField+CMTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UITextField+CMTextField.h"; path = "../UITextField-CMTextField/Classes/UITextField+CMTextField.h"; sourceTree = "<group>"; };
+		B5DBE50B22C3851F00C20FEC /* UITextField+CMTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UITextField+CMTextField.m"; path = "../UITextField-CMTextField/Classes/UITextField+CMTextField.m"; sourceTree = "<group>"; };
 		C0F46B4E3A5193DBF0D1CEBE /* Pods-UITextField-CMTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITextField-CMTextField_Example.release.xcconfig"; path = "Target Support Files/Pods-UITextField-CMTextField_Example/Pods-UITextField-CMTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E1C8A033DFE9C241D09A8D52 /* Pods-UITextField-CMTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITextField-CMTextField_Example.debug.xcconfig"; path = "Target Support Files/Pods-UITextField-CMTextField_Example/Pods-UITextField-CMTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F9604457CACC245198FDB115 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FEA3A01E7C75C22E2B53EC22 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F9604457CACC245198FDB115 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FEA3A01E7C75C22E2B53EC22 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +184,8 @@
 				80C82869873A2ED4AD244DB5 /* UITextField-CMTextField.podspec */,
 				F9604457CACC245198FDB115 /* README.md */,
 				FEA3A01E7C75C22E2B53EC22 /* LICENSE */,
+				B5DBE50A22C3851F00C20FEC /* UITextField+CMTextField.h */,
+				B5DBE50B22C3851F00C20FEC /* UITextField+CMTextField.m */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -193,7 +198,6 @@
 				60622C6F7919760C0C425305 /* Pods-UITextField-CMTextField_Tests.debug.xcconfig */,
 				9BF838C4C3495227B0A83976 /* Pods-UITextField-CMTextField_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -367,6 +372,7 @@
 				6003F59E195388D20070C39A /* CMAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* CMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				B5DBE50C22C3851F00C20FEC /* UITextField+CMTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
