@@ -1,0 +1,6 @@
+framework module Pods_UITextField_CMTextField_Example {
+  umbrella header "Pods-UITextField-CMTextField_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

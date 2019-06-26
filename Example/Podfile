@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'UITextField-CMTextField_Example' do
+  pod 'UITextField-CMTextField', :path => '../'
+
+  target 'UITextField-CMTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

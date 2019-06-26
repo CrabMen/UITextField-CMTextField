@@ -1,0 +1,16 @@
+PODS:
+  - UITextField-CMTextField (0.1.0)
+
+DEPENDENCIES:
+  - UITextField-CMTextField (from `../`)
+
+EXTERNAL SOURCES:
+  UITextField-CMTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UITextField-CMTextField: 15092eb4911a70320b9c269ed574ae17609a6260
+
+PODFILE CHECKSUM: 120bc8c68ca87f79c5886db2c47addc137e75ac8
+
+COCOAPODS: 1.7.0.rc.2
